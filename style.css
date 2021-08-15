@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+}
+
+body{
+    background-color: black;
+}
+
+.box{
+ display: inline-block;
+ border: 3px solid white;
+ margin: 10px 12px;
+ width: 30vw;
+ height: auto;
+ border-radius: 10px;
+}
+
+.box img{
+    width: 100%;
+    height: 40vh;
+}
+
+.sname,.sprice{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: white;
+}
+
+.box:hover{
+    background-color: white;
+}
+
+.box:hover .sname{
+    color: black;
+}
+
+.box:hover .sprice{
+    color: black;
+}
